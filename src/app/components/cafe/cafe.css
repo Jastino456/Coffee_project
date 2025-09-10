@@ -1,0 +1,61 @@
+/*contenedor de todo*/
+.container-body{
+    padding-top: 35px;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    align-items: center;
+    padding-left:23px;
+}
+/*texto de enmedio*/
+.container-textoDeEnmedio {
+  justify-items: center;
+  background-color: #1d1918;
+  padding-top: 0px;
+  color: #c06c3c;
+  border-radius: 20px;
+  padding-right: 30px;
+  width: 98%;
+  text-align: center;
+}
+
+/*contenedor de las tarjetas*/
+.container-body > .row {
+    background-color: rgb(0, 0, 0);
+    padding-right: 100px;
+    display:flex; 
+    width: 88vw;
+    height:450px;
+    border-radius: 20px ;
+}
+/*contenido de las tarjetas*/
+.container-body > .row > .col > .card > .card-body{
+    padding-left:10px;
+    color: #c06c3c;
+    font-size: 18px;
+}   
+/*Imagenes de la tarjeta*/
+.container-body > .row > .col > .card > img {
+    width: 150px;
+    height: 160px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    display: flex;
+    object-fit: cover;
+}
+
+.container-body > .row > .col > .card {
+    border-radius: 10px;
+    background-color: #1d1918;
+}
+.row {
+    padding-left: 60px;
+
+    display: flex;
+    gap: 45px; /* espacio entre cada una*/
+    flex-wrap: wrap;
+}
+.col {
+    padding-top: 2%;
+    flex: 1 0 21%; /*el tamaño de las tarjetas */
+}
